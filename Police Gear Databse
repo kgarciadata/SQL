@@ -1,0 +1,15 @@
+CREATE TABLE police_gear (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER );
+
+INSERT INTO police_gear VALUES (1, "vests", 5);
+INSERT INTO police_gear VALUES (2, "boots", 6);
+INSERT INTO police_gear VALUES (3, "thin blue line bracelets", 5);
+SELECT * FROM police_gear;
+SELECT * FROM police_gear;
+SELECT * FROM police_gear;
+SELECT * FROM police_gear;
+SELECT * FROM police_gear;
+SELECT * FROM police_gear;
+SELECT * FROM police_gear;
+
+SELECT * FROM police_gear 
+ORDER BY quantity desc;
